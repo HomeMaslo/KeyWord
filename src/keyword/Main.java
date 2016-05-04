@@ -15,7 +15,7 @@ import java.util.Set;
  * @author pavel
  */
 public class Main {
- 
+
     public static void main(String[] args) {
 
         System.out.println("Enter keywords: ");
@@ -25,7 +25,7 @@ public class Main {
         int i = 0;
         while (true) {
             i++;
-            String value = scanner.next();
+            String value = scanner.next().toLowerCase();
             if (value.equals("exit")) {
                 break;
             }
